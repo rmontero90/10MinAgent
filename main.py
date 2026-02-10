@@ -1,12 +1,13 @@
-from typing import List
 import json
 import random
-import string
 from datetime import datetime, timedelta
 from langchain_openai import ChatOpenAI
+from typing import List
+from langgraph.types import Command
 from langchain_core.messages import HumanMessage, AIMessage, BaseMessage
+from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 
 from dotenv import load_dotenv
 
@@ -108,16 +109,16 @@ SYSTEM_MESSAGE = (
     "If the user refers to 'those users' from a previous request, ask them to specify the details again."
 )
 
-agent = create_react_agent(llm, TOOLS, prompt=SYSTEM_MESSAGE)
+agent = create_agent(llm, TOOLS, system_prompt=SYSTEM_MESSAGE)
 
 
 def run_agent(user_input: str, history: List[BaseMessage]) -> AIMessage:
     """Single-turn agent runner with automatic tool execution via LangGraph."""
     try:
-        result = agent.invoke(
-            {"messages": history + [HumanMessage(content=user_input)]},
-            config={"recursion_limit": 50}
-        )
+        inputs = Command(update={"messages": history + [HumanMessage(content=user_input)]})
+        config: RunnableConfig = {"recursion_limit": 50}
+
+        result = agent.invoke(inputs, config=config)
         # Return the last AI message
         return result["messages"][-1]
     except Exception as e:

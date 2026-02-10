@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice.smith@gorillalogic.com",
+      "username": "alice600",
+      "age": 28,
+      "registeredAt": "2026-02-08T14:41:33.704980"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.johnson@gorillalogic.com",
+      "username": "bob323",
+      "age": 25,
+      "registeredAt": "2025-04-23T14:41:33.705012"
+    },
+    {
+      "id": 3,
+      "firstName": "Charlie",
+      "lastName": "Williams",
+      "email": "charlie.williams@gorillalogic.com",
+      "username": "charlie774",
+      "age": 26,
+      "registeredAt": "2025-10-24T14:41:33.705026"
+    },
+    {
+      "id": 4,
+      "firstName": "Diana",
+      "lastName": "Brown",
+      "email": "diana.brown@gorillalogic.com",
+      "username": "diana463",
+      "age": 25,
+      "registeredAt": "2025-03-20T14:41:33.705035"
+    },
+    {
+      "id": 5,
+      "firstName": "Ethan",
+      "lastName": "Jones",
+      "email": "ethan.jones@gorillalogic.com",
+      "username": "ethan738",
+      "age": 26,
+      "registeredAt": "2025-03-24T14:41:33.705043"
+    },
+    {
+      "id": 6,
+      "firstName": "Fiona",
+      "lastName": "Smith",
+      "email": "fiona.smith@gorillalogic.com",
+      "username": "fiona614",
+      "age": 25,
+      "registeredAt": "2025-10-14T14:41:33.705050"
+    },
+    {
+      "id": 7,
+      "firstName": "George",
+      "lastName": "Johnson",
+      "email": "george.johnson@gorillalogic.com",
+      "username": "george817",
+      "age": 29,
+      "registeredAt": "2025-08-13T14:41:33.705058"
+    },
+    {
+      "id": 8,
+      "firstName": "Hannah",
+      "lastName": "Williams",
+      "email": "hannah.williams@gorillalogic.com",
+      "username": "hannah496",
+      "age": 25,
+      "registeredAt": "2025-06-19T14:41:33.705066"
+    },
+    {
+      "id": 9,
+      "firstName": "Ian",
+      "lastName": "Brown",
+      "email": "ian.brown@gorillalogic.com",
+      "username": "ian113",
+      "age": 26,
+      "registeredAt": "2025-04-10T14:41:33.705073"
+    },
+    {
+      "id": 10,
+      "firstName": "Julia",
+      "lastName": "Jones",
+      "email": "julia.jones@gorillalogic.com",
+      "username": "julia731",
+      "age": 30,
+      "registeredAt": "2025-12-16T14:41:33.705081"
+    },
+    {
+      "id": 11,
+      "firstName": "Kevin",
+      "lastName": "Smith",
+      "email": "kevin.smith@gorillalogic.com",
+      "username": "kevin437",
+      "age": 30,
+      "registeredAt": "2025-02-18T14:41:33.705087"
+    },
+    {
+      "id": 12,
+      "firstName": "Laura",
+      "lastName": "Johnson",
+      "email": "laura.johnson@gorillalogic.com",
+      "username": "laura409",
+      "age": 25,
+      "registeredAt": "2025-08-28T14:41:33.705094"
+    },
+    {
+      "id": 13,
+      "firstName": "Michael",
+      "lastName": "Williams",
+      "email": "michael.williams@gorillalogic.com",
+      "username": "michael935",
+      "age": 25,
+      "registeredAt": "2025-04-22T14:41:33.705102"
+    },
+    {
+      "id": 14,
+      "firstName": "Nina",
+      "lastName": "Brown",
+      "email": "nina.brown@gorillalogic.com",
+      "username": "nina637",
+      "age": 30,
+      "registeredAt": "2025-03-03T14:41:33.705109"
+    },
+    {
+      "id": 15,
+      "firstName": "Oscar",
+      "lastName": "Jones",
+      "email": "oscar.jones@gorillalogic.com",
+      "username": "oscar802",
+      "age": 30,
+      "registeredAt": "2025-05-17T14:41:33.705116"
+    },
+    {
+      "id": 16,
+      "firstName": "Paula",
+      "lastName": "Smith",
+      "email": "paula.smith@gorillalogic.com",
+      "username": "paula732",
+      "age": 28,
+      "registeredAt": "2025-12-16T14:41:33.705128"
+    },
+    {
+      "id": 17,
+      "firstName": "Quinn",
+      "lastName": "Johnson",
+      "email": "quinn.johnson@gorillalogic.com",
+      "username": "quinn616",
+      "age": 29,
+      "registeredAt": "2026-01-08T14:41:33.705136"
+    },
+    {
+      "id": 18,
+      "firstName": "Rachel",
+      "lastName": "Williams",
+      "email": "rachel.williams@gorillalogic.com",
+      "username": "rachel583",
+      "age": 28,
+      "registeredAt": "2025-03-15T14:41:33.705143"
+    },
+    {
+      "id": 19,
+      "firstName": "Steve",
+      "lastName": "Brown",
+      "email": "steve.brown@gorillalogic.com",
+      "username": "steve171",
+      "age": 28,
+      "registeredAt": "2025-05-06T14:41:33.705153"
+    },
+    {
+      "id": 20,
+      "firstName": "Tina",
+      "lastName": "Jones",
+      "email": "tina.jones@gorillalogic.com",
+      "username": "tina226",
+      "age": 29,
+      "registeredAt": "2025-05-27T14:41:33.705161"
+    }
+  ],
+  "count": 20
+}
