@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@company.com",
+      "username": "john495",
+      "age": 25,
+      "registeredAt": "2025-10-02T18:01:00.460542"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@company.com",
+      "username": "jane510",
+      "age": 35,
+      "registeredAt": "2026-02-02T18:01:00.460574"
+    },
+    {
+      "id": 3,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.johnson@company.com",
+      "username": "bob430",
+      "age": 35,
+      "registeredAt": "2025-12-29T18:01:00.460586"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice.smith@example.com",
+      "username": "alice350",
+      "age": 24,
+      "registeredAt": "2025-08-29T18:39:33.798371"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.johnson@mail.com",
+      "username": "bob560",
+      "age": 46,
+      "registeredAt": "2025-04-06T18:39:33.798392"
+    },
+    {
+      "id": 3,
+      "firstName": "Carol",
+      "lastName": "Williams",
+      "email": "carol.williams@test.org",
+      "username": "carol497",
+      "age": 60,
+      "registeredAt": "2026-02-07T18:39:33.798403"
+    },
+    {
+      "id": 4,
+      "firstName": "David",
+      "lastName": "Brown",
+      "email": "david.brown@example.com",
+      "username": "david338",
+      "age": 32,
+      "registeredAt": "2025-05-02T18:39:33.798412"
+    },
+    {
+      "id": 5,
+      "firstName": "Eva",
+      "lastName": "Jones",
+      "email": "eva.jones@mail.com",
+      "username": "eva718",
+      "age": 40,
+      "registeredAt": "2025-07-22T18:39:33.798420"
+    },
+    {
+      "id": 6,
+      "firstName": "Frank",
+      "lastName": "Smith",
+      "email": "frank.smith@test.org",
+      "username": "frank453",
+      "age": 54,
+      "registeredAt": "2025-11-11T18:39:33.798428"
+    },
+    {
+      "id": 7,
+      "firstName": "Grace",
+      "lastName": "Johnson",
+      "email": "grace.johnson@example.com",
+      "username": "grace769",
+      "age": 62,
+      "registeredAt": "2025-06-16T18:39:33.798436"
+    },
+    {
+      "id": 8,
+      "firstName": "Hank",
+      "lastName": "Williams",
+      "email": "hank.williams@mail.com",
+      "username": "hank796",
+      "age": 24,
+      "registeredAt": "2025-09-01T18:39:33.798443"
+    },
+    {
+      "id": 9,
+      "firstName": "Ivy",
+      "lastName": "Brown",
+      "email": "ivy.brown@test.org",
+      "username": "ivy643",
+      "age": 63,
+      "registeredAt": "2025-02-21T18:39:33.798451"
+    },
+    {
+      "id": 10,
+      "firstName": "Jack",
+      "lastName": "Jones",
+      "email": "jack.jones@example.com",
+      "username": "jack321",
+      "age": 69,
+      "registeredAt": "2025-12-13T18:39:33.798458"
+    }
+  ],
+  "count": 10
+}
