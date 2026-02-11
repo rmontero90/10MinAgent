@@ -1,0 +1,26 @@
+services:
+  cassandra:
+    image: cassandra:5.0
+    container_name: cassandra-vector
+    ports:
+      - "9042:9042"  # CQL port - all you need
+    environment:
+      - CASSANDRA_CLUSTER_NAME=DataGenCluster
+      - CASSANDRA_DC=datacenter1
+      - CASSANDRA_RACK=rack1
+      - MAX_HEAP_SIZE=2G
+      - HEAP_NEWSIZE=400M
+      - CASSANDRA_ENABLE_VECTOR=true  # Enable vector search
+    volumes:
+      - ./cassandra-data:/var/lib/cassandra  # Persist your data!
+      - ./cassandra-init:/docker-entrypoint-initdb.d  # Auto-initialize
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'describe keyspaces'"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+    networks:
+      - datagen-net
+networks:
+  datagen-net:
+    driver: bridge
